@@ -50,6 +50,6 @@ class KwualarmController < ApplicationController
   def qnamodifyproc
   end
 
-  def 404
+  def error404
   end
 end
