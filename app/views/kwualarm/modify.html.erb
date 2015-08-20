@@ -1,2 +1,32 @@
-<h1>Kwualarm#modify</h1>
-<p>Find me in app/views/kwualarm/modify.html.erb</p>
+<body>
+<div class="container">
+<div class="page-header">
+	<h2>정보수정</h2><br>
+<form>
+이름<br>
+<input type="text" value="수정 불가" readonly><br>
+아이디<br>
+<input type="text" value="수정 불가" readonly><br>
+비밀번호<br>
+<input type="password" maxlength="8"><br>
+휴대폰 번호(-없이 숫자만 입력)<br>
+<input type="text">
+<input type="submit" value="요청"><br>
+인증번호(4자리))<br>
+<input type="text">
+<input type="submit" value="확인"><br>
+이메일 주소<br>
+<input type="text">
+<input type="submit" value="요청"><br><br>
+알림<br>
+<input type="radio" name="alarm" value="on" checked>ON<br>
+<input type="radio" name="alarm" value="off">OFF<br><br>
+알림 공지(중복 선택 가능)<br>
+<input type="checkbox" name="notice1" value="message" checked>문자<br>
+<input type="checkbox" name="notice2" value="email">메일<br><br>
+<input type="submit" value="수정완료">
+</form>
+</div>
+</div>
+</body>
+
